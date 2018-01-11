@@ -27,28 +27,36 @@ nav_menu:
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
   - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
-    icon: /i/icons.svg#email
+    url: /html_pages/contact.html
+    icon: /i/icons.svg#github
+    outbound: true
+
+  - name: CV
+    url: /html_pages/cv.html
+    icon: /i/icons.svg#github
+    outbound: true
+
+
 
 # Objects listed here will appear on the /projects.html page.
 projects:
-  - title: Solana
-    teaser: A responsive blog template written in Sass and vanilla JavaScript.
-    url: https://github.com/rlue/jekyll-solana
-    role: Creator
-    category: Frontend Dev
-  - title: Cortana
-    teaser: A talking robot. Now available on Google Play?
-    url: https://play.google.com/store/apps/details?id=com.microsoft.cortana
-    role: Core Team
+  - title: FashioNxt
+    teaser: A responsive website for Fashion industry. Ruby on rails website, with features to create, update, delete, and search profiles for fashion professionals
+    url: https://github.com/avinsaxe/match-my-fashion-public
+    role: Full Stack Developer
+    category: Web-Development
+
+  - title: NLP Expression Extraction
+    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
+    url: https://github.com/avinsaxe/derive_mathematical_expressions_from_text_nlp
+    role: Algorithm design/development
     category: NLP
-  - title: Rihanna
-    teaser: Possibly another robot. Also available on Google Play.
-    url: https://play.google.com/store/music/artist/Rihanna?id=Arcw2m2ih45qntv3fufub25tyhu
-    role: Contributor
-    category: Algorithmic Composition
+
+  - title: Managed File Transfer
+    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
+    url: html_pages/mft.html
+    role: Software Developer
+    category: Oracle India
 
 #################
 # Site Settings #
