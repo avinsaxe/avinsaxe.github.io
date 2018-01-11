@@ -58,6 +58,12 @@ projects:
     role: Software Developer
     category: Oracle India
 
+  - title: Barclays Capital
+    teaser: Information Retrieval and Extraction tool. Web parsing and alert messaging
+    url: html_pages/barclays.html
+    role: Software Developer Intern
+    category: Barclays Capital India
+
 #################
 # Site Settings #
 #################
