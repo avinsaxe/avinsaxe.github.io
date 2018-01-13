@@ -41,10 +41,10 @@ nav_menu:
 # Objects listed here will appear on the /projects.html page.
 projects:
   - title: Managed File Transfer
-      teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
-      url: html_pages/mft.html
-      role: Software Developer
-      category: Oracle India
+    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
+    url: html_pages/mft.html
+    role: Software Developer
+    category: Oracle India
 
   - title: FashioNxt
     teaser: A responsive website for Fashion industry. Ruby on rails website, with features to create, update, delete, and search profiles for fashion professionals
