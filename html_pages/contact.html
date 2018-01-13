@@ -1,70 +1,28 @@
+---
+layout: listing
+title: Posts
+---
+{% if paginator.total_pages > 1 %}
+<div class="paginator">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="paginator__button paginator__button--newer">&laquo; Newer</a>
+    {% endif %}
 
+    {% if paginator.previous_page and paginator.next_page %}
+    <span class="paginator__divider">/</span>
+    {% endif %}
 
-
-
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="paginator__button paginator__button--older">Older &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}
 
 
 <!DOCTYPE html>
 <html>
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Avinash</title>
-    <meta name="author"       content="Avinash" />
-    <meta name="description"  content="Am a coder, am an innovator. I love to develop software to solve real world business problems
-" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Avinash" />
-    <link rel="stylesheet"    href="/style.css">
-    <link rel="stylesheet"    href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:500,500i,300,300i|Roboto+Mono">
-</head>
-<body>
-<div class="backdrop backdrop--home">
-    <header class="header header--home">
-        <a class="nameplate nameplate--home" href="/">
-            <div class="nameplate__avatar nameplate--home__avatar"></div>
-            <h1 class="nameplate__title nameplate--home__title">Avinash</h1>
-            <div class="nameplate__subhead nameplate--home__subhead"> Welcome </div>
-        </a>
-
-        <nav class="nav">
-            <button class="nav__toggle"></button>
-            <ul class="nav__list nav--home__list collapsed">
-
-
-
-                <a class="nav__item nav__item--posts" href="/">Posts</a>
-
-
-
-
-                <a class="nav__item nav__item--projects" href="/projects">Projects</a>
-
-
-
-
-                <a class="nav__item nav__item--github" href="https://github.com/avinsaxe" target=_blank">GitHub</a>
-
-
-
-
-                <a class="nav__item nav__item--contact" href="/html_pages/contact.html" target=_blank">Contact</a>
-
-
-
-
-                <a class="nav__item nav__item--cv" href="/html_pages/cv.html" target=_blank">CV</a>
-
-
-            </ul>
-        </nav>
-    </header>
-    <hr>
-
-
-
     <main class="posts posts--home" role="main">
-
+        <p align="center">Feel free to connect with my on my email. If you want to have a chat, I can hop on a call on the contact number below</p>
         <ul class="posts__list posts--home__list">
 
             <li class="posts__entry posts--home__entry">
@@ -83,19 +41,6 @@
 
         </ul>
     </main>
-
-
-
-
-
-    <hr>
-    <footer class="colophon colophon--home">
-        <span class="colophon__statement">This blog is powered by Jekyll.</span>
-        <span class="colophon__statement"><a href="https://github.com/rlue/jekyll-solana" target="_blank">Source code</a> available under the MIT License.</span>
-        <span class="colophon__statement">All original writing licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>.</span>
-    </footer>
-</div>
-
-<script src="/site.js"></script>
 </body>
+<script src="/site.js"></script>
 </html>
