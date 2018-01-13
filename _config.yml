@@ -31,10 +31,10 @@ nav_menu:
     icon: /i/icons.svg#github
     outbound: true
 
-#  - name: CV
-#    url: /html_pages/cv.html
-#    icon: /i/icons.svg#github
-#    outbound: true
+  - name: CV
+    url: /html_pages/cv.html
+    icon: /i/icons.svg#github
+    outbound: true
 
 
 
@@ -52,17 +52,17 @@ projects:
     role: Algorithm design/development
     category: NLP
 
-#  - title: Managed File Transfer
-#    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
-#    url: html_pages/mft.html
-#    role: Software Developer
-#    category: Oracle India
-#
-#  - title: Barclays Capital
-#    teaser: Information Retrieval and Extraction tool. Web parsing and alert messaging
-#    url: html_pages/barclays.html
-#    role: Software Developer Intern
-#    category: Barclays Capital India
+  - title: Managed File Transfer
+    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
+    url: html_pages/mft.html
+    role: Software Developer
+    category: Oracle India
+
+  - title: Barclays Capital
+    teaser: Information Retrieval and Extraction tool. Web parsing and alert messaging
+    url: html_pages/barclays.html
+    role: Software Developer Intern
+    category: Barclays Capital India
 
 #################
 # Site Settings #
