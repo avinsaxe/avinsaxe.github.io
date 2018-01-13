@@ -40,29 +40,29 @@ nav_menu:
 
 # Objects listed here will appear on the /projects.html page.
 projects:
+  - title: Managed File Transfer
+      teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
+      url: html_pages/mft.html
+      role: Software Developer
+      category: Oracle India
+
   - title: FashioNxt
     teaser: A responsive website for Fashion industry. Ruby on rails website, with features to create, update, delete, and search profiles for fashion professionals
     url: https://github.com/avinsaxe/match-my-fashion-public
     role: Full Stack Developer
     category: Web-Development
 
-  - title: NLP Expression Extraction
-    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
-    url: https://github.com/avinsaxe/derive_mathematical_expressions_from_text_nlp
-    role: Algorithm design/development
-    category: NLP
-
-  - title: Managed File Transfer
-    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
-    url: html_pages/mft.html
-    role: Software Developer
-    category: Oracle India
-
   - title: Barclays Capital
     teaser: Information Retrieval and Extraction tool. Web parsing and alert messaging
     url: html_pages/barclays.html
     role: Software Developer Intern
     category: Barclays Capital India
+
+  - title: NLP Expression Extraction
+    teaser: Extract mathematical expressions from text, using novel approaches of string matching, identifying syntactical structures of mathematical sentences, etc
+    url: https://github.com/avinsaxe/derive_mathematical_expressions_from_text_nlp
+    role: Algorithm design/development
+    category: NLP
 
 #################
 # Site Settings #
