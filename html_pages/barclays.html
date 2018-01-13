@@ -1,10 +1,53 @@
+---
+layout: listing
+title: Posts
+---
+
+{% if paginator.total_pages > 1 %}
+<div class="paginator">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="paginator__button paginator__button--newer">&laquo; Newer</a>
+    {% endif %}
+
+    {% if paginator.previous_page and paginator.next_page %}
+    <span class="paginator__divider">/</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="paginator__button paginator__button--older">Older &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title></title>
 </head>
 <body>
-
+<section class="yaqOZd qeLZfd" id="h.p_osM9aG-iO4Xk" style="">
+    <div class="yaqOZd IFuOkc"></div>
+    <div class="mYVXT">
+        <div class="LS81yb VICjCf" tabindex="-1">
+            <div class="hJDwNd-AhqUyc-uQSCkd purZT-AhqUyc-II5mzb pSzOP-AhqUyc-qWD73c JNdkSc">
+                <div class="oKdM2c">
+                    <div class="hJDwNd-AhqUyc-uQSCkd jXK9ad D2fZ2 OjCsFc wHaque GNzUNc" id="h.p_jVrzqiCEO4XW">
+                        <div class="jXK9ad-SmKAyb jXK9ad-SmKAyb-c4YZDc">
+                            <div class="tyJCtd mGzaTb baZpAe">
+                                <h2 class="zfr3Q JYVBee" id="h.p_wImaP3V6O4Xg"><a class="dhtgD" href="/view/avinash-saxena-cse/barclays-experience-letter">Barclays Capital May 2013-july 2013</a></h2>
+                                <h3 class="zfr3Q OmQG5e" id="h.p__H9zvbGwO5t9">Software Developer Intern</h3>
+                                <ul class="n8H08c UVNKR">
+                                    <li class="zfr3Q TYR86d" id="h.p_Fhmw-UOFV2Oq">Reverse-engineered, re-architectured and implemented code of a tool <em>S.A.P.H.I.R.E</em> in <em>Java</em> originally scripted in Perl/Shell</li>
+                                    <li class="zfr3Q TYR86d" id="h.p_iTOiMv3pV32W"><em>S.A.P.H.I.R.E</em> identifies callable agency bonds by monitoring websites of three different banks, every 10 minutes for recently called securities. Information of called securities is significant to owners as it generates business opportunity for owners of security</li>
+                                    <li class="zfr3Q TYR86d" id="h.p_PCSANISwV5FU">It uses internal trading systems and vendor data, to enrich data of called security and notify agency desks via emails</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
