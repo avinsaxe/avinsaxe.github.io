@@ -31,6 +31,7 @@ nav_menu:
     icon: /i/icons.svg#github
     outbound: true
 
+
   - name: CV
     url: /html_pages/cv.html
     icon: /i/icons.svg#github
@@ -63,6 +64,13 @@ projects:
     url: https://github.com/avinsaxe/derive_mathematical_expressions_from_text_nlp
     role: Algorithm design/development
     category: NLP
+
+  - title: Distributed Systems
+    teaser: Published a manuscript titled ‘Degradation analysis of probabilistic choice systems’ in IJRQSE
+    url: html_pages/iiit.html
+    role: Research Intern
+    category: Distributed Systems/Fault Tolerance
+
 
 #################
 # Site Settings #

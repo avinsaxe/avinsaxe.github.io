@@ -1,0 +1,42 @@
+---
+layout: listing
+title: Posts
+---
+
+{% if paginator.total_pages > 1 %}
+<div class="paginator">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="paginator__button paginator__button--newer">&laquo; Newer</a>
+    {% endif %}
+
+    {% if paginator.previous_page and paginator.next_page %}
+    <span class="paginator__divider">/</span>
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="paginator__button paginator__button--older">Older &raquo;</a>
+    {% endif %}
+</div>
+{% endif %}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<div class="tyJCtd mGzaTb baZpAe">
+    <h2 class="zfr3Q JYVBee" id="h.p_upOJyismayNE">IIIT, bangalore May 2010-July 2010</h2>
+    <h3 class="zfr3Q OmQG5e" id="h.p_ucSYHCwXc31y">Distribute Systems/Fault Tolerance Algebra</h3>
+    <ul class="n8H08c UVNKR" style="text-align: justify;">
+        <li class="zfr3Q TYR86d" id="h.p_X-K15gBQbAN7">I got an opportunity to pursue a 2 months research internship in second year of college with <strong>Prof. Shrisha Rao</strong>, at <strong>International Institute of Information Technology</strong>, Bangalore.</li>
+        <li class="zfr3Q TYR86d" id="h.p_4anPCnHjbwxw">I was assigned the task of developing algebra for degradation analysis of fault tolerant computer systems, which I carried out successfully.</li>
+        <li class="zfr3Q TYR86d" id="h.p_a2R997bObxpr">The apogee of my internship was when I proposed to consider the use of probabilistic choice in selection of distributed systems in parallel, instead of considering the generic equiprobable systems.</li>
+        <li class="zfr3Q TYR86d" id="h.p_-BzAKqEQbywB">Intrigued with the idea, Prof. Shrisha Rao motivated me to develop a comprehensive algebra to handle such distributed systems.</li>
+        <li class="zfr3Q TYR86d" id="h.p_uzMDbAakb9rO">A major outcome of this project was publication of a manuscript titled <em><strong>‘Degradation analysis of probabilistic choice systems’</strong></em> in the renowned journal, <em><strong>International Journal of Reliability, Quality and Safety Engineering</strong></em><strong>.</strong> (<a class="dhtgD" href="http://www.google.com/url?q=http%3A%2F%2Fdx.doi.org%2F10.1142%2Fs0218539314500120&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEY8HTOOK6xOWWtsyZlclEOXtGFPg" target="_blank">http://dx.doi.org/10.1142/s0218539314500120</a>)
+        </li>
+    </ul>
+</div>
+</body>
+</html>
